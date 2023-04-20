@@ -1,0 +1,53 @@
+header{
+    display: flex;
+   justify-content: space-around;
+   align-items: center;
+     
+   .h1area{
+    margin: 28px 28px;
+    text-align: center;
+    
+    
+   }
+   .inputarea{
+    margin-left: 32px;
+    width: 75%;
+    position: relative;
+    input{
+        width: 100%;
+        border-radius: 50px ;
+        padding-left: 30px;
+       
+    }
+    i{
+        position: absolute;
+        top:7px;
+        left:8px
+    }
+   }
+   .btnarea{
+    
+    button{
+        width: 30px;
+        height: 30px;
+        border:none;
+        border-radius: 150px;
+        background-color: rgb(170, 168, 168);
+       
+    }
+   }
+}
+
+.area{
+    display: flex;
+    .left{
+        background-color: #e7e794;
+        width: 20%;
+        height: 100vh;
+    }
+    .right{
+        background-color: #e3c6d8;
+        width: 80%;
+        height: 100vh;
+    }
+}
